@@ -15,7 +15,7 @@ In this folder, you will find:
 
 1. Download and install [Vagrant](https://www.vagrantup.com/downloads.html) appropriate to your host OS.
 2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) appropriate to your host OS.
-3. Copy the file "Vagrantfile" in this folder to your host OS.
+3. Copy the file [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/blob/master/build-vm/Vagrantfile) in this folder to your host OS.
 4. Open command prompt (on Windows) or terminal (on Linux) and change the current directory to where the "Vagrantfile" was copied to.
 5. Type the following in the command prompt or terminal: vagrant up 
 6. The vagrant file will begin executing an at some point the VM will start up on VirtualBox. 
