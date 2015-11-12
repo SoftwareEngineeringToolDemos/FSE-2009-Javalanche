@@ -22,9 +22,17 @@ In this folder, you will find:
 Please wait for the vagrant script to complete executing before using the VM.
 
 
-
 # Details of the built VM
 
 As part of the load process, the following is loaded in the VM (as part of the Vagrant script)
 
-1. Java 8.
+1. Ubuntu Desktop 14.04.
+  * Default username: *vagrant*
+  * Default password: *vagrant*
+2. Java 8.
+
+# Acknoledgments:
+
+The base box was taken from [https://vagrantcloud.com/box-cutter](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).<br/>
+ 
+
