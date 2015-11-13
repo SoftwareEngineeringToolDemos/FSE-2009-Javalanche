@@ -35,4 +35,7 @@ As part of the load process, the following is loaded in the VM (as part of the V
 
 The base box was taken from [https://vagrantcloud.com/box-cutter](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).<br/>
  
-
+# References
+* [Vagrant Documentation](https://docs.vagrantup.com/v2/getting-started/)
+* [Boxcutter Ubuntu 64-bit Virtual Box](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop)
+* [Java Installation Tutorial](http://askubuntu.com/questions/190582/installing-java-automatically-with-silent-option)
