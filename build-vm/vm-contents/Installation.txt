@@ -1,0 +1,5 @@
+1.Install Oracle Java. 
+2.Install Apache-Maven.
+3.Install Apache-Ant.
+
+The tool can now be built by running the makeDist.sh script in the folder where Javalanche is located.
