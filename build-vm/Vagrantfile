@@ -6,7 +6,37 @@ Vagrant.configure(2) do |config|
    config.vm.provision "shell", inline: <<-SHELL 
    sudo add-apt-repository -y ppa:webupd8team/java
    sudo apt-get update
+   sudo mkdir /home/vagrant/software 
    echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
-   sudo apt-get install -y oracle-java8-installer  
+   sudo apt-get install -y oracle-java8-installer
+   sudo apt-get install -y git
+   cd /home/vagrant/Desktop/
+   git clone https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/   
+   sudo apt-get install -y maven
+   sudo apt-get install flashplugin-installer 
+   sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-calc.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-writer.desktop"
+	sudo rm -f "/usr/share/applications/libreoffice-impress.desktop"
+	sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
+	sudo rm -f "/usr/share/applications/unity-control-center.desktop"
+	wget -O "/home/vagrant/Desktop/Installation.txt" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/Installation.txt
+	wget -O "/home/vagrant/Desktop/Readme.txt" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/readme.txt
+	wget -O "/home/vagrant/Desktop/Javalanche - How to use on this VM.desktop" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/Javalanche%20-%20How%20to%20use%20on%20this%20VM.desktop
+	wget -O "/home/vagrant/Desktop/Licenses.txt" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/Licenses.txt
+	
+	sudo chown -R vagrant "/home/vagrant/Desktop"
+	sudo chmod -R a+rwx "/home/vagrant/Desktop"
+	sudo mkdir "/home/vagrant/software/scripts"
+	wget -O "/home/vagrant/software/scripts/screenlock.sh" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/screenlock.sh
+	wget -O "/home/vagrant/.config/autostart/screenlock.desktop" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/screenlock.desktop
+	sudo chmod -R a+rwx "/home/vagrant/software/scripts/"
+   sudo chown -R vagrant FSE-2009-Javalanche/
+   cd /home/vagrant/Desktop/FSE-2009-Javalanche/ 
+   sudo mkdir "/home/vagrant/.config/autostart"
+	wget -O "/home/vagrant/.config/autostart/gnome-terminal.desktop" https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/gnome-terminal.desktop
+    wget https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/raw/master/build-vm/vm-contents/update-notifier.desktop -O "/home/vagrant/.config/autostart/update-notifier.desktop"
+   sudo reboot
   SHELL
 end
+
