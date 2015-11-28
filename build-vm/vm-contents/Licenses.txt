@@ -1,0 +1,26 @@
+********************
+Licenses for this VM
+********************
+
+1. Oracle Virtual Box
+The VirtualBox Open Source Edition is licensed under the GPL V2. (Some parts of VirtualBox, especially libraries, may also be released under other licenses as well.)
+
+The full text of the license is available here:  http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+2. JAVA
+JAVA is released under the Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX
+The full text of the license is available here: http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+
+3.Apache-Maven 
+Apache-Maven is licensed under APACHE LICENSE, VERSION 2.0
+The full text of the license is available here: http://www.apache.org/licenses/
+
+4.Apache-Ant 
+Apache-Ant is licensed under APACHE LICENSE, VERSION 2.0
+The full text of the license is available here: http://www.apache.org/licenses/
+
+5. Javalanche framework
+The framework is licensed under the GPL.
+The full text of the license is available here:  http://www.gnu.org/licenses/gpl-3.0.en.html
+
+
