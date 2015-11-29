@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=gnome-terminal 
+Exec=gnome-terminal -x cd /home/vagrant/Desktop/FSE-2009-Javalanche 
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
