@@ -9,6 +9,7 @@ This repository _is not_ the original repository for this tool.
 In this repository, for Javalanche, you will find:
 * :white_check_mark: [Source code](https://github.com/david-schuler/javalanche/)
 * :x: Executable tool (not available)
+* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/a/ncsu.edu/file/d/0BzcJHNbG1XQGRFUtZjNSZDhPdmM/view?usp=sharing)
 
 TThis repository was constructed by [Rishi Anne](https://github.com/rishielnino) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
 
