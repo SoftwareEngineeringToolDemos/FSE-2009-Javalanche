@@ -17,6 +17,6 @@ In this repository, for Javalanche, you will find:
 [1]: https://github.com/david-schuler/javalanche/wiki "Javalanche Wiki"
 
 ## Acknowledgements
-This repository was constructed by [Rishi Anne](https://github.com/rishielnino) under the supervision of Emerson Murphy-Hill](https://github.com/CaptainEmerson). A special thanks to the owners of the tool, David Schuler and Andreas Zeller for their help in establishing this repository.
+This repository was constructed by [Rishi Anne](https://github.com/rishielnino) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). A special thanks to the owners of the tool, David Schuler and Andreas Zeller for their help in establishing this repository.
 
 
