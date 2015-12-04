@@ -2,7 +2,9 @@
 
 This repository contains information related to the tool Javalanche presented at the  Foundations of Software Engineering Conference, 2009. The tool was originally presented in [this paper](https://www.st.cs.uni-saarland.de/publications/details/schuler-fse-2009/).
 
-This repository _is not_ the original repository for this tool. 
+This repository _is not_ the original repository for this tool.Here are some links to the original project:
+* [The Official Project Page](http://javalanche.org/)
+* [The Official Project Page To Download Javalanche] (http://javalanche.org/)
 
 In this repository, for Javalanche, you will find:
 * :white_check_mark: [Source code](https://github.com/david-schuler/javalanche/)
