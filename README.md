@@ -7,9 +7,9 @@ This repository _is not_ the original repository for this tool.Here are some lin
 * [The Official Project Page To Download Javalanche] (http://javalanche.org/)
 
 In this repository, for Javalanche, you will find:
-* :white_check_mark: [Source code](https://github.com/david-schuler/javalanche/)
+* :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2009-Javalanche/tree/master/src)
 * :x: Executable tool (not available)
-* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/open?id=0B6JCaBtQgKl7YTFESEktMzYtb3M)
+* :white_check_mark: [Virtual machine containing tool](http://go.ncsu.edu/SE-tool-VMs)
 
 ### Using Javalanche
 1. Clone repository to local filesystem
